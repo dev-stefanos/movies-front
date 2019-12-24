@@ -1,13 +1,34 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+    scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.movies-container {
+    margin-top: 20px;
+}
+
+.top-margin {
+    margin-top: 20px!important;
+}
+
+.movies-details {
+    padding: 20px;
+    height: 100%;
+}
+
+.ww {
+    width: 100%!important;
+    max-width: 100%!important; 
+}
+
+.wh {
+    height: 100%!important;
+    max-height: 100%!important;
+}
+
+.react-fetch-progress-bar {
+    background-color: white!important;
+    height: 10px!important;
+    position: fixed!important;
+    top: 0!important;
+    left: 0!important;
 }
